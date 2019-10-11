@@ -23,7 +23,13 @@ body {
   text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
   background-image: url(1.jpg);
   background-size: 360px 150px;
+   animation: anim1 3.5s infinite,anim2 5s forwards;
+
 }
+  @keyframes anim2{
+  from{color:#fff;}
+  to{color:#141114;}
+  }
 
 .loader:after {
   content: "";
