@@ -72,12 +72,12 @@
 </style>
 	<div class="container-contact100" style="background-image: url(img/6.jpg);background-size: 100% 100vh; background-color:#141414;">
 		<div class="wrap-contact100" style="background-color:rgba(01,01,01,0.8);">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" name="REGISTRATION" data-netlify-recaptcha="true" data-netlify="true" netlify-honeypot="bot-field">
 				<span class="contact100-form-title" style="color: gold;">
 					REGISTRATION
 				</span>
-
-				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name" >
+<label style="display: none;">Don’t fill this out if you're human: <input name="bot-field" style="display: none;" /></label>
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name"  >
 					<span class="label-input100">FULL NAME *</span>
 					<input class="input100" type="text" name="name" placeholder="Enter Your Name">
 				</div>
@@ -95,7 +95,7 @@
 				<div class="wrap-input100 input100-select bg1">
 					<span class="label-input100">Select Event</span>
 					<div>
-						<select class="js-select2" name="service">
+						<select class="js-select2" name="event">
 							<option>ONLINE EVENTS</option>
 							<option>ABHINAY</option>
 							<option>ALANKAN</option>
@@ -110,7 +110,7 @@
 				<div class="wrap-input100 input100-select bg1">
 					<span class="label-input100">GENDER</span>
 					<div>
-						<select class="js-select3" name="service4">
+						<select class="js-select3" name="gender">
 							<option>SELECT</option>
 							<option>MALE</option>
 							<option>FEMALE</option>
@@ -140,7 +140,7 @@
 					<input class="input100" type="text" name="college" placeholder="BIT SINDRI,DHANBAD ">
 				</div>
 
-
+<div data-netlify-recaptcha="true"></div>
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn" type="submit"> 
 						<span>
