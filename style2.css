@@ -27,8 +27,8 @@ body {
 
 }
   @keyframes anim2{
-  from{color:#fff;}
-  to{color:#141114;}
+  from{color:transparent;}
+  to{color:#fff;}
   }
 
 .loader:after {
