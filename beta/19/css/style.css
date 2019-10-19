@@ -224,13 +224,13 @@ body { font-family: 'Open Sans', sans-serif; }
 /* 05 - HEADER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .header { position: fixed; top: 0px; left: 0px; width: 100%; z-index: 100; }
-.header.scrolled { background: #222; }
-.logo { float: left; display: inline-block; margin-top: 41px; }
+.header.scrolled { background: rgba(2,2,2,0.4); }
+.logo { float: left; display: inline-block; margin-top: 31px; }
 .main-nav { float: right; margin-top: 42px; margin-bottom: 34px; }
 .main-nav li { display: inline-block; margin-left: 33.2px; }
 .main-nav a { position: relative; display: block; font-size: 13px; line-height: 15px; font-weight: 400; color: #fff; text-transform: uppercase; padding-bottom: 9px; }
 .main-nav li a:before { content: ''; display: block; position: absolute; bottom: 0px; left: 0px; right: 0px; height: 2px; background: transparent; }
-.main-nav li.active a:before, .main-nav li:hover a:before { background: #1111ee; }
+.main-nav li.active a:before, .main-nav li:hover a:before { background: transparent; }
 .header .logo-block { float: left; }
 /*menu*/
 .cmn-toggle-switch { position: fixed; right: 15px; top: 20px; display: none; float: right; overflow: hidden; margin: 0; padding: 0; width: 20px; height: 35px; font-size: 0; text-indent: -9999px; -webkit-appearance: none; -moz-appearance: none; appearance: none; -moz-box-shadow: none; box-shadow: none; -moz-border-radius: none; border-radius: none; border: none; cursor: pointer; background-color: transparent; z-index: 101; }
@@ -904,8 +904,8 @@ body[data-color="gold"] .slider-wth-thumbs.style-2 .speaker-social a:hover { bac
   .header.type-3 .main-nav { margin-top: 27px; margin-bottom: 22px; display: block !important; } }
 /* Tablets (>=768px)*/
 @media (max-width: 991px) { .header { position: static; height: auto; z-index: 100; }
-  .header .logo-block { position: fixed; left: 0px; width: 100%; height: 80px; padding-left: 15px; padding-right: 15px; background: #222; -webkit-transform: translateZ(0); -webkit-transform: translate3d(0, 0, 0); z-index: 101; }
-  .logo { margin-top: 32px; }
+  .header .logo-block { position: fixed; left: 0px; width: 100%; height: 80px; padding-left: 15px; padding-right: 15px; background: rgb(13,13,13,0.6); -webkit-transform: translateZ(0); -webkit-transform: translate3d(0, 0, 0); z-index: 101; }
+  .logo { margin-top: 25px; }
   .main-nav { display: none; position: fixed; top: 0; left: 0px; width: 100%; z-index: 10; text-align: center; margin-top: 0; background: #222; padding-top: 107px; padding-bottom: 20px; max-height: 100%; overflow: auto; }
   .main-nav a { display: inline-block; }
   .main-nav > ul > li { display: block; width: 100%; margin-left: 0px; margin-bottom: 12px; }
@@ -1044,9 +1044,9 @@ body[data-color="gold"] .slider-wth-thumbs.style-2 .speaker-social a:hover { bac
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 29 - STYLER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.style-page { position: fixed; width: 90px; height: 70%; right: -90px; top: 20%; background: #fff; z-index: 101; text-align: center; -moz-box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1); box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1); -webkit-transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); -moz-transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); -o-transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); }
+.style-page { position: fixed; width: 90px; height: 65%; right: -90px; top: 20%; background: #fff; z-index: 101; text-align: center; -moz-box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1); box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.1); -webkit-transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); -moz-transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); -o-transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); transition: all 350ms cubic-bezier(0.53, -0.005, 0.75, 0.095); }
 .style-page h5 { font-size: 18px; line-height: 22px; padding-bottom: 18px; color: #b7b7b7; font-weight: 400; text-transform: capitalize; }
-.wrapp { overflow-y: auto; overflow-x: hidden; height: 100%; padding: 15px; }
+.wrapp { overflow-y: auto; overflow-x: hidden; height: 90%; padding: 15px; }
 .style-page.slide-right { right: 0px; }
 .conf-logo { margin: 15px 0px; }
 .color-block { position: relative; width: 100%; padding: 25px 0px; border-bottom: 1px solid #b7b7b7; display: inline-block; }
@@ -1070,7 +1070,7 @@ body[data-color="gold"] .slider-wth-thumbs.style-2 .speaker-social a:hover { bac
 .entry.bg-16 { background: #D45AB6; }
 .conf-button { position: absolute; width: 50px; height: 50px; left: -50px; top: 140px; background: #fff; color: #222; text-align: center; font-size: 30px; line-height: 50px; cursor: pointer; -moz-border-radius-topleft: 8px; border-top-left-radius: 8px; -moz-border-radius-bottomleft: 8px; border-bottom-left-radius: 8px; -moz-box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.1); box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.1); }
 .conf-button span { transition: all 0.5s ease-in; -webkit-transition: all 0.5s ease-in; -moz-transition: all 0.5s ease-in; -o-transition: all 0.5s ease-in; -ms-transition: all 0.5s ease-in; }
-.conf-button span.act { -o-transform: rotate(230deg); transform: rotate(230deg); -webkit-transform: rotate(230deg); -moz-transform: rotate(230deg); -ms-transform: rotate(230deg); }
+.conf-button span.act { -o-transform: rotate(360deg); transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(230deg); -ms-transform: rotate(360deg); }
 .home-style { position: relative; width: 100%; padding: 25px 0px; }
 .home-style a { position: relative; width: 100%; display: block; }
 .home-style a:hover .dark-layer { opacity: 0; }

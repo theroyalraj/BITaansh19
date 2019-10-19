@@ -11,7 +11,6 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/load.css" rel="stylesheet" type="text/css" />
     <link href="css/landing.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="img/favicon.ico" />
 
@@ -22,39 +21,69 @@
     font-family: "bus";
     src: url("fonts/try.woff") format('woff');
 }
+@font-face {
+    font-family: "san";
+    src: url("fonts/san.woff") format('woff');
+}
+    @media (min-width: 993px) {
+.med{
+margin-left:29vw;
+width: 100%;
+
+}
+.map-block{
+	width: 50%;
+}
+
+
+
+@media (max-width: 662px) { 
+	.med{
+margin:0;
+}
+.map-block{
+	width: 50%;
+}
+#present{
+	position: relative; margin-bottom:-200px;margin-left: -10%;
+}
 
 </style>
+   
 
 
 <body data-color="gold" bgcolor="#141414" style="background-color: #eee;">
- <div class="style-page" >
+ <div class="style-page" style="background-color: rgba(14,14,15,.8);">
         <div class="wrapp">
-         <div class="conf-button">
-         	<span class="fa fa-cog"></span>
+         <div class="conf-button" style="background-color: #b97c29;">
+         	<span class="fa fa-envelope-o"></span>
          </div>
 	   
-		  <div class="color-block" >
-		    <h5>CHOOSE YOUR COLOR</h5>
-			 <div class="entry bg-1" data-color="yellow"></div>
-			 <div class="entry bg-2" data-color="green"></div>
-			 <div class="entry bg-3" data-color="gold"></div>
-			 <div class="entry bg-4" data-color="dark"></div>
-			 <div class="entry bg-5" data-color="blue"></div>
-			 <div class="entry bg-6" data-color="orange"></div>
-			 <div class="entry bg-7" data-color="purple"></div>
-			 <div class="entry bg-8" data-color="pink"></div>
+		  <div class="color-block"  >
+		    <h4 style="color: #00a3cc; font-size: 16px;">CONTACT<br><center>US</center></h4><br><hr>
+		        <a href="#"><i class="fa fa-facebook fa-2x"></i></a><br> <br>
+		        <a href="#"><i class="fa fa-instagram fa-2x"></i><br><br></a>
+		        <a href="#"><i class="fa fa-linkedin fa-2x"></i><br><br></a>
+		         <a href="#"><i class="fa fa-youtube fa-2x"></i><br><br></a>
+		         <a href="#"><i class="fa fa-phone fa-2x"></i></a><br><br>
 		  </div>
 		  		  		  
 		</div> 
 	</div>
     <!-- LOADER -->
 <div id="loading" style="background-color: #141414;">
-        <div class="loader">
-  <div class="inner">
-  </div>
-</div>
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+			  <div class="bigSqr">
+			    <div class="square first"></div>
+			    <div class="square second"></div>
+			    <div class="square third"></div>
+			    <div class="square fourth"></div>
+			  </div>
+            </div>
+        </div>
+        <div id="loading-text">Loading</div>
     </div>
-
 
 
     <!-- HEADER -->
@@ -91,24 +120,24 @@
 	            	<div class="vertical-align">
 	            		<div class="container">
 	                		<div class="banner-block style-4">
-								<h4 class="banner-date animate delay-1" style="position: relative; margin-bottom:-2.6vh;margin-left: -10%; ">BIT SIDNDRI PRESENTS</h4>
-								<h2 class="banner-title animate delay-2" style="position: relative;font-family: bus;font-size: 12.5vw;color: #b97c29;padding-top: 15px;margin-right: -10px;margin-left: -10px;margin-top: 2vh; ">BITAANSH'19</h2>
-								<div class="banner-text animate delay-3" style="margin-top:-15px;">powerd by xyz</div>
+								<h4 class="banner-date animate delay-3" id="present"></h4>
+								<h2 class="banner-title animate delay-1" style="position: relative;font-family: bus;font-size: 12.5vw;color: #b97c29;padding-top: 10px;margin-right: -10px;margin-left: -10px;margin-top: 2vh; ">BITAANSH'19</h2>
+								<div class="banner-date animate delay-2" style="margin-top:-5px;margin-right: 0px;color:rgba(244,01,01,0.7);">अहम् ब्रह्मास्मि:</div>
 	                		</div>
 	            		</div>
 	            	</div>
 	            	
 	        	</div>
         	</div>
-		<a name="about"><div class="main-block style-2" ></a>
-        	<img class="center-image" src="img/9.jpg" alt="">
+		<a name="about"><div class="main-block style-2"></a>
+        	<img class="center-image" src="img/pics/asit2.jpg" alt=""    style="background-color: rgba(80,0,81,0.55);">>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" >
                         <div class="block-header style-2 color-3" >
-                            <h4 class="block-category img-full">BITAANSH'19</h4>
-                            <h2 class="block-title">ABOUT US</h2>
-                            <div class="block-text" style="background-color: rgba(80,0,81,0.6);"><p align="centre" style="color:#eee;font-family: comic-sans;font-size: 20px">BITAANSH is the annual socio cultural mega fest of BIT Sindri, with the inaugural edition
+                            <h4 class="block-category img-full"  style="font-size:42px;font-family: Helvatica;">ABOUT US</h4>
+                            <h2 class="block-title" ></h2>
+                            <div class="block-text"><p align="centre" style="color:#eee;font-family: Monaco;font-size: 20px">BITAANSH is the annual socio cultural mega fest of BIT Sindri, with the inaugural edition
 held in the year 2015. Of plethora of pre-events such as gully cricket, street football and
 many more fun and frolic segments set the tempo just right along with the power packed
 performance of The Local Train, Mr. Divya Kumar (bollywood male playback), Underground
@@ -118,7 +147,7 @@ and entralling than ever. A potpourri of PRE EVENTS escalated by student PRONITE
                         </div>
                     </div>
                 </div>
-				<div class="slider-icons swiper-container" data-autoplay="0" data-loop="0" data-speed="1000" data-slides-per-view="responsive" data-mob-slides="1" data-xs-slides="2" data-sm-slides="3" data-md-slides="4" data-lg-slides="5" data-add-slides="5">
+				<div class="slider-icons swiper-container" data-autoplay="0" data-loop="0" data-speed="1000" data-slides-per-view="responsive" data-mob-slides="2" data-xs-slides="2" data-sm-slides="3" data-md-slides="4" data-lg-slides="5" data-add-slides="5">
 				 	<div class="swiper-wrapper">
 					  	<div class="swiper-slide" data-val="0">
 							<div class="icon-item">
@@ -131,15 +160,15 @@ and entralling than ever. A potpourri of PRE EVENTS escalated by student PRONITE
 					  	<div class="swiper-slide" data-val="1">
 							<div class="icon-item">
 								<img class="icon-img" src="img/icon_4.png" alt="">
-								<div class="icon-date">50+</div>
+								<div class="icon-date">25+</div>
 								<a class="icon-title">EVENTS</a>
-								<div class="icon-category">worth 5000</div>
+								<div class="icon-category">Prizes worth 1.5lac</div>
 							</div>
 					  	</div>
 					  	<div class="swiper-slide" data-val="2">
 							<div class="icon-item">
 								<img class="icon-img" src="img/icon_5.png" alt="">
-								<div class="icon-date">50k+</div>
+								<div class="icon-date">50K+</div>
 								<a class="icon-title">FOOT FAALS</a>
 								<div class="icon-category">onshow</div>
 							</div>
@@ -148,28 +177,21 @@ and entralling than ever. A potpourri of PRE EVENTS escalated by student PRONITE
 							<div class="icon-item">
 								<img class="icon-img" src="img/icon_1.png" alt="">
 								<div class="icon-date">3+</div>
-								<a class="icon-title">PRO-SHOW</a>
+								<a class="icon-title">PRO-SHOWS</a>
 								<div class="icon-category">EVERY NIGHT</div>
 							</div>
 					  	</div>
 					  	<div class="swiper-slide" data-val="4">
 							<div class="icon-item">
 								<img class="icon-img" src="img/icon_2.png" alt="">
-								<div class="icon-date">DJ NIGHT</div>
-								<a class="icon-title">etc</a>
-								<div class="icon-category">etc</div>
+								<div class="icon-date">PRO NIGHT</div>
+								<a class="icon-title">EDM NIGHT</a>
+								<div class="icon-category"></div>
 							</div>
 					  	</div>
 					  	
 					  
-					  	<div class="swiper-slide" data-val="10">
-							<div class="icon-item">
-								<img class="icon-img" src="img/icon_2.png" alt="">
-								<div class="icon-date">AUR KUCH IDHAR BHI</div>
-								<a class="icon-title">Dj </a>
-								<div class="icon-category">mandir yahi banega</div>
-							</div>
-					  	</div>						  				  				  
+					  						  				  				  
 					  </div>
 					<div class="pagination"></div>
 					   <div class="swiper-arrow-left style-1"><img src="img/arrow_left.png" alt=""></div>
@@ -185,14 +207,13 @@ and entralling than ever. A potpourri of PRE EVENTS escalated by student PRONITE
         		<div class="row">
         			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
         				<div class="block-header style-2">
-	        				<h4 class="block-category">PRE EVENTS</h4>
-	        				<h2 class="block-title">ONLINE EVENTS</h2>
-	        				<div class="block-text">THESE events are organised onlin.......Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	        				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	        				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	        				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	        				<h3 class="block-category" style="font-size:42px;font-family: bus; ">ONLINE EVENTS</h3>
+	        				<h3 class="block-title" style="color:#fee; font-size:20px;">BITAANSH ka intezaar kiye baithe ho?<br> Lo Hum aa gye!!!</h3>
+	        				<div class="block-text">
+	        						<br><b></b>
+	        					
+
+	        				</div>
         				</div>
         			</div>
         		</div>
@@ -221,7 +242,8 @@ and entralling than ever. A potpourri of PRE EVENTS escalated by student PRONITE
 								
 									<div class="conf-autors">
 									<a class="conf-btn" href="register.html">REGISTER</a><br><br>
-										<p class="conf-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+										<p class="conf-text"> Tumhare ander ek kalakaar hain,
+Kalakaari ke sang-sang abhinay bhi aata hai, Uss abhineta ko jagana hoga!</p>
 									</div>
 								</div>
 								<div class="conf-overlay"></div>								
@@ -234,7 +256,7 @@ and entralling than ever. A potpourri of PRE EVENTS escalated by student PRONITE
 								
 									<div class="conf-autors">
 									<a class="conf-btn" href="register.html">REGISTER</a><br><br>
-										<p class="conf-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+										<p class="conf-text">Your steps are the biggest force inside you, if you control it, you win.</p>
 									</div>
 								</div>
 								<div class="conf-overlay"></div>								
@@ -247,32 +269,14 @@ and entralling than ever. A potpourri of PRE EVENTS escalated by student PRONITE
 								
 									<div class="conf-autors">
 										<a class="conf-btn" href="register.html">REGISTER</a><br><br>
-										<p class="conf-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+										<p class="conf-text">Creativity is Radioactive, it decays and it stays forever. It is a circle carved on designs. </p>
 										
 									</div>
 								</div>
 								<div class="conf-overlay"></div>								
 							</div>
 					    </div>	
-					    <style type="text/css">
-@media (min-width: 993px) {
-.med{
-margin-left:29vw;
-width: 100%;
-
-}
-.map-block{
-	width: 50%;
-}
-
-@media (max-width: 992px) { .med{
-margin:0;
-}
-.map-block{
-	width: 50%;
-}
-
-</style>
+				
 					    <div class="item item-40">
 							<div class="conf-item small med" >
 								<img class="center-image" src="img/pari.jpg" alt="">
@@ -280,7 +284,7 @@ margin:0;
 								
 									<div class="conf-autors">
 										<a class="conf-btn" href="register.html">REGISTER</a><br><br>
-										<p class="conf-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+										<p class="conf-text">“Music expresses that which cannot be said and on which it is impossible to be silent.”  </p>
 										
 									</div>
 								</div>
@@ -308,25 +312,31 @@ margin:0;
                 <div class="swiper-container thumbnails-preview" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide active" data-val="0">
-                        	<div class="speaker-img"><img class="center-image" src="img/3.jpg" alt=""></div>
+                        	<div class="speaker-img"><img class="center-image" src="img/pics/under.jpg" alt=""></div>
                         	<div class="container">
 	                        	<div class="row">
 	                        		<div class="col-xs-12 col-md-6">
 	                        			<div class="speaker-block">
-		                        			<div class="speaker-title">ASIT TRIPATHY</div>
-		                        			<div class="speaker-category">BITAANSH'18</div>
-		                        			<div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-		                        			<div class="speaker-social clearfix">
-		                        				<a href="#"><i class="fa fa-google-plus"></i></a>
-		                        				<a href="#"><i class="fa fa-facebook"></i></a>
-		                        				<a href="#"><i class="fa fa-twitter"></i></a>
-		                        				<a href="#"><i class="fa fa-linkedin"></i></a>
-		                        				<a href="#"><i class="fa fa-skype"></i></a>
-		                        			</div>
+		                        			<div class="speaker-title">PRO-NIGHTS</div>
+		                        			<div class="speaker-category">REJOICE</div>
+		                        			<div class="speaker-text">The most anticipated and
+glorifying segment of
+BITAANSH. With the stage all
+set to blaze and hands raised
+with euphoria maximum
+entertainment is guaranteed
+with prestige at stake.
+
+Leave your feet grooving to the
+breathtaking sensations of
+prominent Bollywood singers
+and bands. Witness a whole
+new chapter of lunacy with
+BITAANSH '19.</div>
 		                        			<div class="speaker-change clearfix">
 		                        				<img src="img/pics/asit.jpg" data-image="img/pics/asit.jpg" alt="">
-		                        				<img src="img/pics/1.jpg" data-image="img/pics/1.jpg" alt="">
-		                        				<img src="img/pics/7.jpg" data-image="img/pics/7.jpg" alt="">
+		                        				<img src="img/pics/divya.jpg" data-image="img/pics/divya.jpg" alt="">
+		                        				<img src="img/3.jpg" data-image="img/3.jpg" alt="">
 		                        			</div>
 	                        			</div>
 	                        		</div>
@@ -339,16 +349,18 @@ margin:0;
                                 <div class="row">
                                     <div class="col-xs-12 col-md-6">
                                         <div class="speaker-block">
-                                            <div class="speaker-title">DRAMATICS</div>
-                                            <div class="speaker-category">BITAANSH'18</div>
-                                            <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                            <div class="speaker-social clearfix">
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-skype"></i></a>
-                                            </div>
+                                            <div class="speaker-title">EVENING MANIA</div>
+                                            <div class="speaker-category">DRAMATICS</div>
+                                            <div class="speaker-text">You walk onto the stage
+and your heart beats
+louder. You know you have
+to deliver, something big!
+Face the audience, their
+anticipation, weariness and
+expectations and leave
+them with a gratified smile
+only and only through your
+words and actions.</div>
 		                        			<div class="speaker-change clearfix">
 		                        				<img src="img/pics/drama2.jpg" data-image="img/pics/drama2.jpg" alt="">
 		                        				<img src="img/pics/cas2.jpg" data-image="img/pics/cas2.jpg" alt="" width="100%">
@@ -365,16 +377,18 @@ margin:0;
                                 <div class="row">
                                     <div class="col-xs-12 col-md-6">
                                         <div class="speaker-block">
-                                            <div class="speaker-title">SINGING</div>
-                                            <div class="speaker-category">BITAANSH'18</div>
-                                            <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                            <div class="speaker-social clearfix">
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-skype"></i></a>
-                                            </div>
+                                            <div class="speaker-title">EVENING MANIA</div>
+                                            <div class="speaker-category">VOCALS</div>
+                                            <div class="speaker-text">Man must have asked of God for
+the gift of voice and words; and
+the ability to so gracefully
+decorate his thoughts with
+language.
+For the one who sings knows not
+no boundaries but only the joy of
+expression - the joy that follows
+a song felt from the heart and
+sung from the soul.</div>
 		                        			<div class="speaker-change clearfix">
 		                        				<img src="img/pics/guit2.jpg" data-image="img/pics/guit2.jpg" alt="">
 		                        				<img src="img/pics/sing2.jpg" data-image="img/pics/sing2.jpg" alt="">
@@ -391,16 +405,17 @@ margin:0;
                                 <div class="row">
                                     <div class="col-xs-12 col-md-6">
                                         <div class="speaker-block">
-                                            <div class="speaker-title">CHOREO</div>
-                                            <div class="speaker-category">BITAANSH'18</div>
-                                            <div class="speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                            <div class="speaker-social clearfix">
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-skype"></i></a>
-                                            </div>
+                                            <div class="speaker-title">EVENING MANIA</div>
+                                            <div class="speaker-category">CHOREO</div>
+                                            <div class="speaker-text">Does the over-pompous
+dholak beats and the
+throbbing rock guitars send
+your legs grooving?
+Come, spice up the stage,
+scale up the temperature and
+unhinge the crowd with your
+spectacular dance moves.</div>
+                                        
 		                        			<div class="speaker-change clearfix">
 		                        				<img src="img/pics/dance2.jpg" data-image="img/pics/dance2.jpg" alt="">
 		                        				<img src="img/pics/dance3.jpg" data-image="img/pics/dance3.jpg" alt="">
@@ -426,32 +441,32 @@ margin:0;
                         <div class="swiper-slide current active" data-val="0">
                             <img class="img-responsive img-full" src="img/pics/3.jpg" alt="">
                             <div class="thumb-desc">
-                                <div class="thumb-title">ASIT TRIPATHY</div>
-                                <div class="thumb-text">PRO-NIGHT</div>
+                                <div class="thumb-title">PRO-NIGHTS</div>
+                                <div class="thumb-text">REJOICE</div>
                             </div>
                             <div class="thumb-overlay"></div>
                         </div>
                         <div class="swiper-slide" data-val="1">
                             <img class="img-responsive img-full" src="img/pics/drama2.jpg" alt="">
                             <div class="thumb-desc">
-                                <div class="thumb-title">DRAMATICS</div>
-                                <div class="thumb-text">BITAANSH'18</div>
+                                <div class="thumb-title">EVENING MANIA</div>
+                                <div class="thumb-text">DRAMATICS</div>
                             </div>                            
                             <div class="thumb-overlay"></div>                            
                         </div>
                         <div class="swiper-slide" data-val="2">
                             <img class="img-responsive img-full" src="img/pics/sing1.jpg" alt="">
                             <div class="thumb-desc">
-                                <div class="thumb-title">VOCALS</div>
-                                <div class="thumb-text">BITAANSH'18</div>
+                                <div class="thumb-title">EVENING MANIA</div>
+                                <div class="thumb-text">VOCALS</div>
                             </div>                            
                             <div class="thumb-overlay"></div>                            
                         </div>
                         <div class="swiper-slide" data-val="3">
                             <img class="img-responsive img-full" src="img/pics/dance1.jpg" alt="">
                             <div class="thumb-desc">
-                                <div class="thumb-title">CHOREO</div>
-                                <div class="thumb-text">BITAANSH'18</div>
+                                <div class="thumb-title">EVENING MANIA</div>
+                                <div class="thumb-text">CHOREO</div>
                             </div>                            
                             <div class="thumb-overlay"></div>                            
                                                             
@@ -527,19 +542,7 @@ margin:0;
 								<div class="about-item service-entry">
 									<img class="img-responsive" src="img/pics/harsha.jpg" alt="">
 									<a class="about-title" href="#">HARSHA ANAND</a>
-									<div class="about-text">CONTENT WRITER 		<a href="#"><i class="fa fa-google-plus"></i></a>
-		                        				<a href="#"><i class="fa fa-facebook"></i></a>
-		                        				<a href="#"><i class="fa fa-twitter"></i></a>
-		                        				<a href="#"><i class="fa fa-linkedin"></i></a>
-		                        				<a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-								</div>
-						  	</div>
-						  	<div class="swiper-slide" data-val="5">
-								<div class="about-item service-entry">
-									<img class="img-responsive" src="img/about_2.jpg" alt="">
-								<a class="about-title" href="#">someone</a>
-									<div class="about-text">lorem ipsem<br>		<a href="#"><i class="fa fa-google-plus"></i></a>
+									<div class="about-text">CONTENT WRITER 	<br><br>	<a href="#"><i class="fa fa-google-plus"></i></a>
 		                        				<a href="#"><i class="fa fa-facebook"></i></a>
 		                        				<a href="#"><i class="fa fa-twitter"></i></a>
 		                        				<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -548,18 +551,7 @@ margin:0;
 								</div>
 						  	</div>
 						  
-						  	<div class="swiper-slide" data-val="7">
-								<div class="about-item service-entry">
-									<img class="img-responsive" src="img/about_3.jpg" alt="">
-								<a class="about-title" href="#">someone</a>
-									<div class="about-text">something 		<a href="#"><i class="fa fa-google-plus"></i></a>
-		                        				<a href="#"><i class="fa fa-facebook"></i></a>
-		                        				<a href="#"><i class="fa fa-twitter"></i></a>
-		                        				<a href="#"><i class="fa fa-linkedin"></i></a>
-		                        				<a href="#"><i class="fa fa-skype"></i></a>
-                                    </div>
-								</div>
-						  	</div>				  				  
+						  			  				  
 						  </div>
 						<div class="pagination"></div>
                           <div class="pagination"></div>
