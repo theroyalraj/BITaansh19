@@ -18,17 +18,17 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Josefin+Sans:400,700');
 .alignleft {
     float: left;
-    margin-right: 15px;
+    margin-right: 0px;
 }
 
 .alignright {
     float: right;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 .aligncenter {
     display: block;
-    margin: 0 auto 15px;
+    margin: 0 auto 0px;
 }
 
 a {
@@ -278,7 +278,7 @@ a.readmore:hover {
 }
 
 .main-area-bg::before {
-    border: 10px solid #fff;
+    border: 00px solid #fff;
     content: "";
     height: 100%;
     left: 0;
