@@ -13,7 +13,7 @@ body {
 .loader {
   position: absolute;
   bottom: 45%;
-  left: 1.1em;
+  left: 0.9em;
   width: 880px;
   color: white;
   font-family: "Roboto Condensed", sans-serif;
