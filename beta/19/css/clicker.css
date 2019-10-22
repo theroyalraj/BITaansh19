@@ -1,0 +1,144 @@
+/* Speakers
+================================================== */
+
+/* Speakers bg */
+
+.clicker-bg{
+    background-color: #f5f5f5;
+    background-image: url(../images/parallax1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 80%;
+    padding: 80px 0;
+}
+
+/* Speaker item */
+
+.clicker {
+    background: #fff;
+    box-shadow: 0 25px 35px -20px rgba(204, 163, 0,0.45);
+    transition: all .4s ease;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    margin-top: 40px;
+       width: 200px;
+    height: 250px;
+    margin-left: 15px;
+
+}
+.exec{
+
+   margin-left: 0px;
+
+}
+
+.clicker:hover{
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    box-shadow: 0 60px 40px -40px rgba(244,250,250,0.13);
+}
+
+/* Speaker img */
+
+.clicker-image {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+
+
+
+.clicker-image:after {
+    content: '';
+    position: absolute;
+    background: rgba(41, 41, 41, .8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    border-radius: 5px;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+}
+.clicker-image .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    left: 50%;
+    margin-left: -45px;
+    z-index: 1;
+    width: 96px;
+    opacity: 0;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+}
+.clicker-image .social-links li {
+    display: inline-block;
+    margin: 0 -3px 0px -2px;
+}
+.clicker-image .social-links li a i {
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #fff;
+    background: #2b2b2b;
+    text-align: center;
+}
+.clicker-image .social-links li a i.fa-facebook {
+    background: #496daf;
+}
+.clicker-image .social-links li a i.fa-twitter {
+    background: #64acf1;
+}
+.clicker-image .social-links li a i.fa-instagram {
+    background: #d32a1e;
+}
+.clicker-image .social-links li a i.fa-linkedin {
+    background: #0077b5;
+}
+.clicker-image .social-links li a i:hover {
+    background: #1b1b1b;
+}
+.clicker-info {
+    padding: 15px 20px;
+    color: #303030;
+    margin-top: 30px;
+}
+.clicker-info .clicker-name {
+    font-size: 16px;
+    margin: 0 0 3px 5px;
+}
+.clicker-info .clicker-name a {
+    color: #b97c29;
+}
+.clicker-info .clicker-designation {
+    font-size: 14px;
+}
+.clicker:hover .clicker-image:after,
+.clicker:hover .clicker-image .social-links {
+    opacity: 1;
+}
+
+/* Speaker no gutter */
+
+.row.no-gutter .clicker{
+    box-shadow: none;
+}
+
+.row.no-gutter .clicker:hover{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+

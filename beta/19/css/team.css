@@ -1065,6 +1065,9 @@ ul.list-arrow li:before {
     margin: 5px 0;
     font-size: 20px;
 }
+
+
+
 /* Speakers
 ================================================== */
 
@@ -1112,6 +1115,8 @@ ul.list-arrow li:before {
     width: 130px;
     height: 100px;
 }
+
+
 
 .ts-speaker-image:after {
     content: '';
