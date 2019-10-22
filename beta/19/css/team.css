@@ -1088,6 +1088,14 @@ ul.list-arrow li:before {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     margin-top: 40px;
+       width: 130px;
+    height: 250px;
+
+}
+.exec{
+
+   margin-left: 15px;
+
 }
 
 .ts-speaker:hover{
@@ -1101,6 +1109,8 @@ ul.list-arrow li:before {
 .ts-speaker-image {
     position: relative;
     text-align: center;
+    width: 130px;
+    height: 100px;
 }
 
 .ts-speaker-image:after {
@@ -1167,16 +1177,17 @@ ul.list-arrow li:before {
 .ts-speaker-info {
     padding: 15px 20px;
     color: #303030;
+    margin-top: 30px;
 }
 .ts-speaker-info .ts-speaker-name {
-    font-size: 18px;
-    margin: 0 0 3px 0;
+    font-size: 16px;
+    margin: 0 0 3px 5px;
 }
 .ts-speaker-info .ts-speaker-name a {
     color: #b97c29;
 }
 .ts-speaker-info .ts-speaker-designation {
-    font-size: 16px;
+    font-size: 14px;
 }
 .ts-speaker:hover .ts-speaker-image:after,
 .ts-speaker:hover .ts-speaker-image .social-links {
@@ -1791,7 +1802,7 @@ h4.panel-title a.collapsed:before {
 
 .page-banner-area {
     position: relative;
-    min-height: 450px;
+    min-height: 300px;
     color: #fff;
     background-position: 50% 50%;
     -webkit-background-size: cover;
@@ -1806,7 +1817,7 @@ h4.panel-title a.collapsed:before {
     margin-top: -40px;
 }
 .page-banner-title h2 {
-    color: #fff;
+    color: #222;
     font-size: 60px;
 }
 .page-banner-title .breadcrumb {
