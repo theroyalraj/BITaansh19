@@ -1070,7 +1070,7 @@ body[data-color="gold"] .slider-wth-thumbs.style-2 .speaker-social a:hover { bac
 .entry.bg-16 { background: #D45AB6; }
 .conf-button { position: absolute; width: 50px; height: 50px; left: -50px; top: 140px; background: #fff; color: #222; text-align: center; font-size: 30px; line-height: 50px; cursor: pointer; -moz-border-radius-topleft: 8px; border-top-left-radius: 8px; -moz-border-radius-bottomleft: 8px; border-bottom-left-radius: 8px; -moz-box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.1); box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.1); }
 .conf-button span { transition: all 0.5s ease-in; -webkit-transition: all 0.5s ease-in; -moz-transition: all 0.5s ease-in; -o-transition: all 0.5s ease-in; -ms-transition: all 0.5s ease-in; }
-.conf-button span.act { -o-transform: rotate(360deg); transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(230deg); -ms-transform: rotate(360deg); }
+.conf-button span.act { -o-transform: rotate(360deg); transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); }
 .home-style { position: relative; width: 100%; padding: 25px 0px; }
 .home-style a { position: relative; width: 100%; display: block; }
 .home-style a:hover .dark-layer { opacity: 0; }
